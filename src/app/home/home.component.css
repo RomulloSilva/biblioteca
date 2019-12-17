@@ -1,5 +1,22 @@
 .card{
     background-color: #31403B;
     border-radius: 10px;
-    margin-right: 2%;
+   
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+} 
+
+.col-md-2{
+    padding-right: 2%;
+}
+.btn{
+    background-color: #95C2B3;
+    font-family: 'Courier Prime', monospace;
+}
+
+.card-img-top{
+    height: 150px;
 }

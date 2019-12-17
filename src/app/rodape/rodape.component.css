@@ -10,7 +10,7 @@
 #myFooter .footer-copyright{
     margin-bottom: 35px;
     text-align: center;
-    color: #777;
+    color: #31403B;
 }
 
 #myFooter ul{
@@ -34,15 +34,15 @@
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #eee;
+    background-color: #31403B;
 }
 
 #myFooter .fa{
     font-size: 36px;
     margin-right: 15px;
     margin-left: 20px;
-    background-color: white;
-    color: #d0d0d0;
+    background-color: #628076;
+    color: #B1E6D4;
     border-radius: 51%;
     padding: 10px;
     height: 60px;
