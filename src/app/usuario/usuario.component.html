@@ -1,0 +1,82 @@
+<section class="container secaoDados" *ngFor="let usuario of users">
+
+    <div class="row linhaDados">
+        <div class="col-md-3 dados">
+            <h3>Dados Pessoais</h3>
+            <h6>Nome:</h6>{{usuario.name}}
+            <h6>User Name:</h6>{{usuario.username}}
+            <h6>Email:</h6>{{usuario.email}}
+            <h6>Telefone:</h6>{{usuario.phone}}
+            <h6>WebSite:</h6>{{usuario.website}}
+        </div>
+
+        <div class="col-md-3 dados">
+
+            <h3>Endereço:</h3>
+            <h6>Rua:</h6>{{usuario.address.street}}
+            <h6>Apartamento:</h6>{{usuario.address.suite}}
+            <h6>Cidade:</h6>{{usuario.address.city}}
+            <h6>CEP:</h6>{{usuario.address.zipcode}}
+            <h6>Latitude:</h6>{{usuario.address.geo.lat}}
+            <h6>Longitude:</h6>{{usuario.address.geo.lng}}
+        </div>
+        <div class="col-md-3 dados">
+
+                <h3>Dados da empresa</h3>
+                <h6>Nome da Empresa:</h6>{{usuario.company.name}}
+                <h6>Bordão</h6>{{usuario.company.catchPhrase}}
+                <h6>BS:</h6>{{usuario.company.bs}}
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--<section>
+    <div class="container" *ngFor="let usuario of users"></div>>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Leitores Online</th>
+                <th scope="col">Nome</th>
+                <th scope="col">User Name</th>
+                <th scope="col">Email</th>
+                <th scope="col"> Dados de Endereço </th>
+                <th scope="col"> Rua </th>
+                <th scope="col"> Apartamento </th>
+                <th scope="col"> Cidade </th>
+                <th scope="col"> CEP </th>
+                <th scope="col"> Latitude </th>
+                <th scope="col"> Longitude </th>
+                <th scope="col"> Telefone </th>
+                <th scope="col"> Website </th>
+                <th scope="col"> Dados da Empresa </th>
+                <th scope="col"> Nome </th>
+                <th scope="col"> Bordão </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{usuario.name}}</td>
+                <td>{{usuario.username}}</td>
+                <td>{{usuario.email}}</td>
+                <td>{{usuario.address.street}}</td>
+                <td> {{usuario.address.suite}} </td>
+                <td> {{usuario.address.city}} </td>
+                <td> {{usuario.address.zipcode}} </td>
+                <td> {{usuario.address.geo.lat}} </td>
+                <td> {{usuario.address.geo.lng}} </td>
+                <td> {{usuario.phone}} </td>
+                <td> {{usuario.website}} </td>
+                <td> {{usuario.company.name}} </td>
+                <td> {{usuario.company.catchPhrase}} </td>
+                <td> {{usuario.company.bs}} </td>
+            </tr>
+
+        </tbody>
+    </table>
+    </div>
+</section>-->
