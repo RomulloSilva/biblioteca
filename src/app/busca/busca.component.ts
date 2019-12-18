@@ -21,6 +21,7 @@ export class BuscaComponent implements OnInit {
     this.UserService.pegarTarefaPeloId(this.id).subscribe((tarefaOut: Tarefa)=>{ 
       this.tarefa = tarefaOut;
       console.log(this.tarefa)
+      
     })
   }
 }

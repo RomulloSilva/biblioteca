@@ -2,7 +2,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';/*PARTE 01 DO WEBSERVICE importa a biblioteca http */
-import {FormsModule} from '@angular/forms' /* Aqui fazemos a importação do forms*/
+import {FormsModule} from '@angular/forms' /* Aqui fazemos a importação do forms para podermos usar o ngModule para ifomar que no iput de busca vale um Id do objeto*/
 
 
 /*Aqui fica as importações dos componentes, ou seja, são importações diretas do nosso projeto*/
