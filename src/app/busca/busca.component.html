@@ -1,0 +1,17 @@
+<div class="form-inline">
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only"></label>
+        <!--O [(ngModel)] é uma diretriz que avisa ao input que o atributo Id está linkado a ele, ou seja o atributo que foi recebido pela var id(criada no typescript do componente busca)-->
+        <input type="number" class="form-control" id="inputPassword2" placeholder="Digite o Id da tarefa" [(ngModel)]="id">
+    </div>
+    <!--(click) tem a mesma função do onclick no html sem Angular, ele ativa ao clicar no mouse a função procureTarefa()-->
+    <button type="submit" class="btn btn-primary mb-2"(click)="procureTarefa();">Pesquisar a tarefa</button>
+</div>
+
+<div class="container blocoDoId" *ngIf="tarefa != null">
+    <div class="row">
+        <div class="col-md-4"><h5>Id do Usuário: </h5>{{tarefa.userId}}</div>
+        <div class="col-md-4"><h5>Título da tarefa: </h5>{{tarefa.title}}</div>
+        <div class="col-md-4"><h5>Tarefa completada? </h5>{{tarefa.completed}}</div>
+    </div>
+</div>

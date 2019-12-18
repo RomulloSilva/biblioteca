@@ -1,3 +1,4 @@
+/*PARTE 2 DO WEBSERVICE criar toda essa página e suas ramificações, ou seja, criar as classes no formato do objeto que guarda seus dados, "próximo passo criar um serviço (ng generate service 'nomedapasta/nomedoarquivo') e vamos no typescript criado"*/
 import {geo} from './Geo';
 
 /*Criando a classe endereço para alimentar user */
@@ -6,7 +7,7 @@ export class address{
     private suite: string;
     private city: string;
     private zipcode: string;
-    private geo: string;
+    private geo: geo;// Quando temos um objeto como tributo, seu tipo é o objeto(classe) que tem seus atributos.
 
 /*---------------------------------------------------- */
     public getStreet(): string{
@@ -38,10 +39,10 @@ export class address{
         this.zipcode = zipcode;
     }
 /*---------------------------------------------------- */
-    public getGeo(): string{
+    public getGeo(): geo{
         return this.geo
     }
-    public setGeo(geo: string): void{
+    public setGeo(geo: geo): void{
         this.geo = geo;
     }
 

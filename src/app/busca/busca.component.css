@@ -1,0 +1,17 @@
+.blocoDoId{
+    margin-top: 2%;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    border:solid 2px #C4FFEB;
+    background-color: #628076;
+    border-radius: 20px;
+    box-shadow: 10px 10px #31403B;
+}
+input{
+
+    background-color: #628076;
+    border-radius: 20px;
+    font-size: 9pt;
+   
+}

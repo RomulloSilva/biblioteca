@@ -5,19 +5,19 @@ import {company} from './Company';
 /*Criando a Classe principal */
 
 export class  user{
-    private id: string;
+    private id: number;
     private name: string;
     private username: string;
     private email: string;
-    private address: string;
+    private address: address;// Quando temos um objeto como tributo, seu tipo é o objeto(classe) que tem seus atributos.
     private phone: string;
     private website: string;
-    private company: string;
+    private company: company;// Quando temos um objeto como tributo, seu tipo é o objeto(classe) que tem seus atributos.
 /*---------------------------------------------------- */
-    public getId(): string{
+    public getId(): number{
         return this.id
     }
-    public setId(id: string): void{
+    public setId(id: number): void{
         this.id = id;
     }
 /*---------------------------------------------------- */

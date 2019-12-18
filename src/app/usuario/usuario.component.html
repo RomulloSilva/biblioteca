@@ -1,3 +1,4 @@
+<!--PARTE 05 DO WEBSERVICE usamos o *ngFOR para exibir os ddos do ebjeto template"*ngFor " newVar of nomeDaVarqueRecebeuOsResultados" "-->
 <section class="container secaoDados" *ngFor="let usuario of users">
 
     <div class="row linhaDados">
@@ -9,6 +10,8 @@
             <h6>Telefone:</h6>{{usuario.phone}}
             <h6>WebSite:</h6>{{usuario.website}}
         </div>
+
+<!-- template para imprimir na tela {{nomeClasse.nomeAtributo}} so houver um objeto dentro do objeto{{nomeClasse.nomeClasse2.nomeAtributo}} e assim por diante--> 
 
         <div class="col-md-3 dados">
 
@@ -29,54 +32,3 @@
         </div>
     </div>
 </section>
-
-
-
-
-<!--<section>
-    <div class="container" *ngFor="let usuario of users"></div>>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">Leitores Online</th>
-                <th scope="col">Nome</th>
-                <th scope="col">User Name</th>
-                <th scope="col">Email</th>
-                <th scope="col"> Dados de Endereço </th>
-                <th scope="col"> Rua </th>
-                <th scope="col"> Apartamento </th>
-                <th scope="col"> Cidade </th>
-                <th scope="col"> CEP </th>
-                <th scope="col"> Latitude </th>
-                <th scope="col"> Longitude </th>
-                <th scope="col"> Telefone </th>
-                <th scope="col"> Website </th>
-                <th scope="col"> Dados da Empresa </th>
-                <th scope="col"> Nome </th>
-                <th scope="col"> Bordão </th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>{{usuario.name}}</td>
-                <td>{{usuario.username}}</td>
-                <td>{{usuario.email}}</td>
-                <td>{{usuario.address.street}}</td>
-                <td> {{usuario.address.suite}} </td>
-                <td> {{usuario.address.city}} </td>
-                <td> {{usuario.address.zipcode}} </td>
-                <td> {{usuario.address.geo.lat}} </td>
-                <td> {{usuario.address.geo.lng}} </td>
-                <td> {{usuario.phone}} </td>
-                <td> {{usuario.website}} </td>
-                <td> {{usuario.company.name}} </td>
-                <td> {{usuario.company.catchPhrase}} </td>
-                <td> {{usuario.company.bs}} </td>
-            </tr>
-
-        </tbody>
-    </table>
-    </div>
-</section>-->
