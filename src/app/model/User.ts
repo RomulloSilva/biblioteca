@@ -49,10 +49,10 @@ public setEmail(email: string): void{
 
 /*---------------------------------------------------- */
 
-public getAddress(): string{
+public getAddress(): address{
     return this.address
 }
-public setAddress(address: string): void{
+public setAddress(address: address): void{
     this.address = address;
 }
 
@@ -76,10 +76,10 @@ public setWebsite(website: string): void{
 
 /*---------------------------------------------------- */
 
-public getCompany(): string{
+public getCompany(): company{
     return this.company
 }
-public setCompany(company: string): void{
+public setCompany(company: company): void{
     this.company = company;
 }
 

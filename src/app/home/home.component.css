@@ -1,6 +1,67 @@
+.col-md-2{
+    padding-right: 2%;
+}
+/*
+.container{
+
+    position: relative;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: #31403B;
+    box-shadow: 47px 22px 86px 41px  #628076;
+    border-radius: 25px;
+
+    
+}*/
+
+
+
+
+/*Profile Card 5*/
+.profile-card-5{
+    margin-top:20px;
+}
+.profile-card-5 .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#4E5E30;
+    border-color:#4E5E30;
+}
+
+
+
+/*
+
 .card{
     background-color: #31403B;
     border-radius: 10px;
+    height: auto;
+    overflow: auto;
+ 
+    
    
 }
 
@@ -9,9 +70,7 @@
     justify-content: center;
 } 
 
-.col-md-2{
-    padding-right: 2%;
-}
+
 .btn{
     background-color: #95C2B3;
     font-family: 'Courier Prime', monospace;
@@ -20,3 +79,25 @@
 .card-img-top{
     height: 150px;
 }
+
+
+::-webkit-scrollbar{
+
+    width: 4%;
+    background-color: #31403B;
+    opacity: 1;
+ }
+::-webkit-scrollbar-button{ 
+}
+::-webkit-scrollbar-track{
+}
+::-webkit-scrollbar-track-piece{ 
+    
+}
+::-webkit-scrollbar-thumb{  
+}
+::-webkit-scrollbar-corner{ 
+}
+::-webkit-resizer {
+
+} */
